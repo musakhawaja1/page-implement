@@ -1,0 +1,337 @@
+*{
+    line-height: 1.8;
+	font-size: 15px;
+	color: #999;
+	margin: 0;
+	font-family: "Work Sans",arial,sans-serif;
+
+}
+body{
+    margin-top: -30px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+}
+.logo{
+    font-size: large;
+    color: azure;
+}
+
+.links a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: smaller;
+    color: azure;
+}
+.logo{
+    position: relative;
+    left: 50px;
+}
+.links{
+    position: relative;
+    right: 50px;
+}
+.imgtxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#image1{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 65px;
+    filter: contrast(90%);
+    filter: brightness(60%);
+    z-index: -1;
+}
+.text h1{
+    font-size: 35px;
+    position: relative;
+    text-align: left;
+    left: 320px;
+    top: 120px;
+    color: azure;
+    font-weight: 400;
+    width: fit-content;
+}
+.text strong{
+    font-size: 35px;
+    font-weight: bolder;
+    color: azure;
+}
+.text p{
+    width: fit-content;
+}
+.temp{
+    position: relative;
+    text-align: left;
+    left: 320px;
+    top: 120px;
+    color: azure;
+    font-weight: 100;
+}
+b{
+    font-size: 35px;
+    color: azure;
+    font-weight:900;
+}
+.button{
+    background-color: rgb(6, 84, 210);
+    border: 0px;
+    font-size: smaller;
+    height: 40px;
+    width: 120px;
+    color: azure;
+    position: relative;
+    text-align: left;
+    left: 320px;
+    top: 120px;
+    text-align: center;
+}
+.learn{
+    font-size: smaller;
+    text-decoration: none;
+    position: relative;
+    text-align: left;
+    left: 320px;
+    top: 120px;
+    color: azure;
+}
+.row{
+    padding: 100px 50px;
+}
+.blrow{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    left: 180px;
+    width: 73%;
+    padding: 30px;
+}
+.blbox{
+    flex-basis: 25%;
+    width: 200px;
+    height: 280px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;}
+.blbox p{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: smaller;
+}
+.blbox h2{
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 10px;
+    color: rgb(58, 50, 50);
+
+}
+#image2, #image3, #image4{
+    width:120px;
+    height: 90px;
+}
+.lm{
+    text-decoration: none;
+    font-size: smaller;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-weight: bold;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    position: relative;
+    top: 250px;
+    
+}
+.info h1{
+    text-align: left;
+    color: black;
+    font-size: 25px;
+}
+#whyus{
+    position: relative;
+    left: 450px;
+    width: fit-content;
+}
+#ouragency{
+    position: relative;
+    left: 300px;
+}
+.right{
+    width: fit-content;
+}
+#image5{
+    margin: 30px;
+    width: 120%;
+    height: 50vh;
+    position: relative;
+    left: 270px;
+}
+.collapsible {
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+    left: 430px;
+    background-color: white;
+  }
+  
+  .active, .collapsible:hover {
+    color: blue;  
+
+}
+  
+  .collapsible:after {
+    content: '\229E';
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+    background-color: white;
+    position: relative;
+    bottom: 2px;
+    padding-right:7px;
+  }
+  
+  .active:after {
+    content: "\229F";
+    background-color: white;
+    color: blue;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 23%;
+    position: relative;
+    left: 460px;
+    border-left: 25px solid rgba(132, 132, 132, 0.1);
+}
+.content p{
+    font-size: smaller;
+}
+.strip{
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    top: 320px
+}
+.rowstrip{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    
+}
+.rowstrip h1{
+    color: rgb(0, 102, 255);
+    font-size: 45px;
+    font-weight: 500;
+}
+.rowstrip2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rowstrip2 p{
+    position: relative;
+    bottom: 15px;
+}
+#rs1{
+    position: relative;
+    left: 150px;
+}
+#rs3{
+    position: relative;
+    right: 150px;
+}
+#rst1{
+    position: relative;
+    left: 185px;
+}
+#rs2{
+    position: relative;
+    right: 60px;
+}
+#rs3{
+    position: relative;
+    right: 150px;
+}
+#rst3{
+    position: relative;
+    right: 130px;
+}
+.leadership{
+    position: relative;
+    top: 450px;
+    text-align: center;
+}
+.leadership h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 50px;
+}
+.leadpic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leadpic1 img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+}
+.leadpic2 img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+}.leadpic3 img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+}
+
+.leadpic1{
+    position: relative;
+    left: 200px;
+}
+.leadpic2{
+    
+}
+.leadpic3{
+    position: relative;
+    right: 200px;
+}
